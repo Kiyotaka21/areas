@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.legit {
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.name-dark {
+    color: #000;
+}
+
+.top-text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.top-text_dark {
+    color: #000;
+}
+
+.bottom-text {
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.item {
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.daniel {
+    background-color: #6b2d96;
+    grid-area: daniel;
+}
+
+.jonatan {
+    background-color: #4d4254;
+    grid-area: jonatan;
+}
+
+.patrick {
+    background-color: #100436;
+    grid-area: patrick;
+}
+
+.jeanette {
+    grid-area: jeanette;
+}
+
+.kira {
+    grid-area: kira;
+}
+
+.container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-template-areas:
+        "daniel daniel jonatan kira"
+        "jeanette patrick patrick kira"
+    ;
+}
